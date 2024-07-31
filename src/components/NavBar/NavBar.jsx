@@ -1,10 +1,10 @@
-import logoPedidosYa from "../../img/LogoPedidos.png"
-import restaurantIcon from "../../img/restauranteLogo.png"
+import logoPedidosYa from "../../img/LogoPedidos.png";
+import restaurantIcon from "../../img/restauranteLogo.png";
 import kioscoIcon from "../../img/kioscoLogo.png";
 import mascotasIcon from "../../img/mascotasLogo.png";
-import CartWidget from "./CartWidget"
-import "./NavBar.css"
-import "./CartWidget.css"
+import CartWidget from "./CartWidget";
+import "./NavBar.css";
+import "./CartWidget.css";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
@@ -36,7 +36,7 @@ const NavBar = () => {
           </div>
           <CartWidget />
       </nav>
-  )
-}
+  );
+};
 
 export default NavBar;
